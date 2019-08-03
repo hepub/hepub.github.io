@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .box_book_type_sb .box_list ul li a:hover {
-  color: #ff7a24;
+  color: #3ea5df;
 }
 
 .box_comment_sb .st_sidebar {
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .box_comment_sb .box_list .list .item .box_top .cell_name .name:hover {
-  color: #ff7a24;
+  color: #3ea5df;
 }
 
 .box_comment_sb .box_list .list .item .box_top .cell_name .meta li {
@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .box_comment_sb .box_list .list .item .box_top .cell_name .meta li a:hover {
-  color: #ff7a24;
+  color: #3ea5df;
 }
 
 .box_comment_sb .box_list .list .item .box_content p {
@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .new_book_sb_style .box_slide .slick-slide .caption:hover {
-  color: #fff;
+  color: #3ea5df;
 }
 
 .new_book_sb_style .box_slide .slick-dots {
@@ -559,7 +559,7 @@ h1, h2, h3, h4, h5, h6 {
 .header .main-nav ul.nav li.active > a,
 .header .main-nav ul.nav li.sfHover > a,
 .header .main-nav ul.nav li > a:hover {
-  color: #ff7a24;
+  color: #3ea5df;
   background: #f9f9f9;
 }
 
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header .main-nav ul.nav > li ul {
-  border-top: 2px solid #ff7a24;
+  border-top: 2px solid #3ea5df;
 }
 
 .header .main-nav ul.nav > li > ul.dropdown-left {
@@ -602,7 +602,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: auto;
   transform: translate(-100%, 0);
   border-top: 5px solid transparent;
-  border-right: 10px solid #ff7a24;
+  border-right: 10px solid #3ea5df;
   border-bottom: 5px solid transparent;
   border-left: 0 none;
 }
@@ -619,7 +619,7 @@ h1, h2, h3, h4, h5, h6 {
   left: auto;
   transform: translate(100%, 0);
   border-top: 5px solid transparent;
-  border-left: 10px solid #ff7a24;
+  border-left: 10px solid #3ea5df;
   border-bottom: 5px solid transparent;
   border-right: 0 none;
 }
@@ -729,7 +729,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .ft_nav ul.lnk li a:hover {
-  color: #ff7a24;
+  color: #59df3e;
 }
 
 .footer .ft_nav .col_nav .st_title {
@@ -859,7 +859,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .ft_sub_nav ul li a:hover {
-  color: #ff7a24;
+  color: #59df3e;
   text-shadow: none;
 }
 
@@ -878,6 +878,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .ft_copyright p a:hover {
-  color: #ff7a24;
+  color: #59df3e;
   text-shadow: none;
 }
