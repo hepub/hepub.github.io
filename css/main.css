@@ -641,7 +641,7 @@ h1, h2, h3, h4, h5, h6 {
 .header .main-nav ul.nav > li > a:hover,
 .header .main-nav ul.nav > li.sfHover > a,
 .header .main-nav ul.nav > li.active > a {
-  color: #ff7a24;
+  color: #3ea5df;
   background: #eff1f0;
 }
 
