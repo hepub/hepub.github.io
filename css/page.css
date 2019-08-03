@@ -32,7 +32,7 @@
 }
 
 .library_page .con_title .box_letter ul li:before {
-  content: '|';
+  content: "|";
   position: absolute;
   right: 0;
   top: 0;
@@ -47,6 +47,8 @@
 
 .library_page .con_title .box_letter ul li a:hover {
   color: #3ea5df;
+  transform: scale(1.5);
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -197,7 +199,7 @@
 }
 
 .author_page .con_title .box_letter ul li:before {
-  content: '|';
+  content: "|";
   position: absolute;
   right: 0;
   top: 0;
@@ -212,6 +214,8 @@
 
 .author_page .con_title .box_letter ul li a:hover {
   color: #3ea5df;
+  transform: scale(1.5);
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -244,21 +248,21 @@
     margin-bottom: 10px;
   }
 }
-  .library_page .con_title .box_title .st_title .md {
-    display: block;
-    font-size: 16px;
-    color: #333;
-  }
+.library_page .con_title .box_title .st_title .md {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
 
-  .library_page .con_title .box_img {
-    text-align: center;
-  }
+.library_page .con_title .box_img {
+  text-align: center;
+}
 
-  .author_page .con_title .box_title .st_title .md {
-    display: block;
-    font-size: 16px;
-    color: #333;
-  }
+.author_page .con_title .box_title .st_title .md {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
 
 .author_page .con_title .box_img {
   text-align: center;
@@ -271,7 +275,7 @@
 
 .author_page .con_list_author:before {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -330,7 +334,14 @@
   color: #3ea5df;
 }
 
-.author_page .con_list_author .box_list .list .item .cell_detail .st_title a:hover {
+.author_page
+  .con_list_author
+  .box_list
+  .list
+  .item
+  .cell_detail
+  .st_title
+  a:hover {
   color: #59df3e;
   text-decoration: underline;
 }
