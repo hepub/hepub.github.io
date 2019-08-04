@@ -248,7 +248,7 @@
 .library_page .con_products .list .item .thumb {
   display: block;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 6%;
   margin-bottom: 10px;
 }
 
@@ -500,7 +500,7 @@
   display: block;
   width: 200px;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 5%;
 }
 
 .book_detail_page .con_book_detail .box_avatar .thumb img {
@@ -588,7 +588,7 @@
   display: block;
   width: 200px;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 5%;
 }
 
 .author_detail_page .con_author_detail .box_avatar .thumb img {
