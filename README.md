@@ -1,7 +1,5 @@
 # Yêu cầu
 
-**1. Bo tròn 4 góc tất cả các ảnh** - Trừ ảnh đại diện trang author.html và library.html
-
 ## Tính năng trong tương lai
 
 **1. Trang 404** **_(404.html)_** - Link hỏng ~ Chuyển về Trang chủ (index.html)
@@ -18,8 +16,10 @@
 
 **7. Trang Văn hóa đọc** **_(reading-culture.html)_**
 
-- Kiểu Blog: cập nhật nội dung sau
+- Kiểu Blog: cập nhật nội dung sau - em tư vấn thêm giúp anh
 
 **8. Trang Tin tức Công nghệ** **_(tech-news.html)_**
 
-- Kiểu Blog: cập nhật nội dung sau
+- Kiểu Blog: cập nhật nội dung sau - em tư vấn thêm giúp anh
+
+- Theo anh trang _(reading-culture.html)_ và _(tech-news.html)_ sử dụng cùng 1 style
