@@ -57,6 +57,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.space_10 {
+  display: block;
+  padding-bottom: 10px;
+}
+
 .st_sidebar {
   font-size: 18px;
   font-weight: normal;
@@ -372,6 +377,12 @@ h1, h2, h3, h4, h5, h6 {
 .box_comment_sb .box_list .list .item .box_top .cell_avatar {
   width: 50px;
   padding-right: 10px;
+}
+
+.box_comment_sb .box_list .list .item .box_top .cell_avatar a {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .box_comment_sb .box_list .list .item .box_top .cell_name .name {

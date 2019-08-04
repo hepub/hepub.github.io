@@ -1,4 +1,91 @@
 /* --------------------------------------------------------------------- */
+/* register_page
+/* --------------------------------------------------------------------- */
+.register_page .con_title {
+  border-bottom: 1px solid #d2d2d2;
+  padding: 0 20px 20px;
+}
+
+.register_page .con_title .st_title {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .register_page .con_title .st_title {
+    font-size: 24px;
+  }
+}
+
+.register_page .con_register_form {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .register_page .con_register_form {
+    padding: 40px 30px;
+  }
+}
+
+/* --------------------------------------------------------------------- */
+/* login_page
+/* --------------------------------------------------------------------- */
+.login_page .con_title {
+  border-bottom: 1px solid #d2d2d2;
+  padding: 0 20px 20px;
+}
+
+.login_page .con_title .st_title {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .login_page .con_title .st_title {
+    font-size: 24px;
+  }
+}
+
+.login_page .con_login_form {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .login_page .con_login_form {
+    padding: 40px 30px;
+  }
+}
+
+/* --------------------------------------------------------------------- */
+/* forgot_password_page
+/* --------------------------------------------------------------------- */
+.forgot_password_page .con_title {
+  border-bottom: 1px solid #d2d2d2;
+  padding: 0 20px 20px;
+}
+
+.forgot_password_page .con_title .st_title {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .forgot_password_page .con_title .st_title {
+    font-size: 24px;
+  }
+}
+
+.forgot_password_page .con_forgot_password_form {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .forgot_password_page .con_forgot_password_form {
+    padding: 40px 30px;
+  }
+}
+
+/* --------------------------------------------------------------------- */
 /* library_page
 /* --------------------------------------------------------------------- */
 .library_page .con_title {
