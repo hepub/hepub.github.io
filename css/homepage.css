@@ -94,6 +94,8 @@
 
 .con_slide .box_slide .col_img a {
   display: block;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .con_slide .box_slide .col_img .img_thumb {
@@ -157,7 +159,14 @@
   color: #0066ff;
 }
 
+.literality_style .box_slide .slick-slide .thumb {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
 .literality_style .box_slide .slick-slide .img_thumb {
+  display: block;
   margin-bottom: 5px;
 }
 

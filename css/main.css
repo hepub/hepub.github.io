@@ -427,15 +427,27 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.new_book_sb_style .box_slide .slick-slide a {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.new_book_sb_style .box_slide .slick-slide a:hover .caption {
+  color: #3ea5df;
+}
+
 .new_book_sb_style .box_slide .slick-slide .caption {
   display: block;
   font-size: 14px;
   color: #dce3ea;
   text-align: center;
-}
-
-.new_book_sb_style .box_slide .slick-slide .caption:hover {
-  color: #3ea5df;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .new_book_sb_style .box_slide .slick-dots {

@@ -159,6 +159,9 @@
 }
 
 .library_page .con_products .list .item .thumb {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
   margin-bottom: 10px;
 }
 
@@ -291,29 +294,6 @@
   padding: 20px;
 }
 
-.author_page .con_list_author:before {
-  display: block;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 0;
-  width: 100%;
-  border-top: 1px solid #d2d2d2;
-  border-bottom: 1px solid #fff;
-}
-
-.author_page .con_list_author .box_title {
-  margin-bottom: 20px;
-}
-
-.author_page .con_list_author .box_title .st_title {
-  font-size: 20px;
-  font-weight: normal;
-  color: #333;
-  margin-bottom: 0;
-}
-
 .author_page .con_list_author .box_list .list .item {
   margin-bottom: 15px;
 }
@@ -423,8 +403,21 @@
 
 .book_detail_page .con_book_detail .box_avatar {
   float: right;
+  overflow: hidden;
+  border-radius: 4px;
   background: #f6f6f6;
   padding: 0 0 10px 10px;
+}
+
+.book_detail_page .con_book_detail .box_avatar .thumb {
+  display: block;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.book_detail_page .con_book_detail .box_avatar .thumb img {
+  width: 100%;
 }
 
 .book_detail_page .con_book_detail .box_avatar_xs {
@@ -502,6 +495,17 @@
   float: right;
   background: #f6f6f6;
   padding: 0 0 10px 10px;
+}
+
+.author_detail_page .con_author_detail .box_avatar .thumb {
+  display: block;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.author_detail_page .con_author_detail .box_avatar .thumb img {
+  width: 100%;
 }
 
 .author_detail_page .con_author_detail .box_avatar_xs {
