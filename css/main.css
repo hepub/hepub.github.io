@@ -25,6 +25,12 @@ body {
   z-index: -1;
 }
 
+@media only screen and (max-width: 767px) {
+  .site:before {
+    display: none;
+  }
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -480,6 +486,18 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
+@media only screen and (max-width: 767px) {
+  .header_top .cell_logo {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header_top .cellcell_social_logo {
+    width: 60%;
+  }
+}
+
 .header_top .cell_social ul {
   display: table;
   margin-left: auto;
@@ -489,6 +507,12 @@ h1, h2, h3, h4, h5, h6 {
 .header_top .cell_social ul li {
   float: left;
   margin-right: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .header_top .cell_social ul li {
+    margin-right: 5px;
+  }
 }
 
 .header_top .cell_social ul li:last-child {
@@ -508,6 +532,13 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: inset 0 0 6px 1px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(255, 255, 255, 0.55);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+}
+@media only screen and (max-width: 767px) {
+  .header_top .cell_social ul li a {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
 }
 
 .header_top .cell_social ul li a:hover {
