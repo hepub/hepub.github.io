@@ -411,8 +411,13 @@
 
 .book_detail_page .con_book_detail .box_avatar .thumb {
   display: block;
+  width: 200px;
   overflow: hidden;
   border-radius: 4px;
+}
+
+.book_detail_page .con_book_detail .box_avatar .thumb img {
+  width: 100%;
 }
 
 .book_detail_page .con_book_detail .box_avatar_xs {
@@ -494,8 +499,13 @@
 
 .author_detail_page .con_author_detail .box_avatar .thumb {
   display: block;
+  width: 200px;
   overflow: hidden;
   border-radius: 4px;
+}
+
+.author_detail_page .con_author_detail .box_avatar .thumb img {
+  width: 100%;
 }
 
 .author_detail_page .con_author_detail .box_avatar_xs {
