@@ -8,11 +8,11 @@ var app = {
   deviceWidth: '',
   deviceHeight: ''
 }
-app.deviceWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-  app.deviceHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-app.pc = (app.deviceWidth >= 992) ? true : false,
-  app.tab = (app.deviceWidth >= 768 && app.deviceWidth < 992) ? true : false,
-  app.sp = (app.deviceWidth < 768) ? true : false;
+app.deviceWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+app.deviceHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+app.pc = (app.deviceWidth >= 992) ? true : false;
+app.tab = (app.deviceWidth >= 768 && app.deviceWidth < 992) ? true : false;
+app.sp = (app.deviceWidth < 768) ? true : false;
 
 /* --------------------------------------------------------------------- */
 /* THROTTLE
@@ -57,8 +57,8 @@ function matchHeight($o, e, w) {
           maxHeight = $o.eq(i * e + j).outerHeight();
         }
       }
-      for (var k = 0; k < e; k++) {
-        $o.eq(i * e + k).css('height', maxHeight);
+      for (var l = 0; l < e; l++) {
+        $o.eq(i * e + l).css('height', maxHeight);
       }
     }
   }
@@ -85,7 +85,7 @@ $(document).ready(function() {
   /* --------------------------------------------------------------------- */
   (function($) {
     $(window).on('scroll resize', throttle(function() {
-      $e = $('.mainbody').find('.col_item');
+      var $e = $('.mainbody').find('.col_item');
       matchHeight($e, 2);
     }, 100));
   })(jQuery);
@@ -120,7 +120,21 @@ $(document).ready(function() {
       dots: true,
       arrows: true,
       prevArrow: '<button type="button" class="slick-prev"><i class="ic_arrow fa fa-angle-left"></i></button>',
-      nextArrow: '<button type="button" class="slick-next"><i class="ic_arrow fa fa-angle-right"></i></button>'
+      nextArrow: '<button type="button" class="slick-next"><i class="ic_arrow fa fa-angle-right"></i></button>',
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        }
+      ]
     });
   })(jQuery);
 
