@@ -46,13 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
-a,
-button,
-.btn {
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
 .m-0 {
   margin-bottom: 0 !important;
 }

@@ -31,7 +31,7 @@
     
     -->
   </head>
-  <body class="register_page">
+  <body class="library_page">
     <div class="site">
       <div class="header_top">
         <div class="container">
@@ -106,14 +106,14 @@
                       <li><a href="cart-empty.html">Cart Empty</a></li> -->
                     </ul>
                   </li>
-                  <li><a href="book-detail.html"><span class="menu-text">Văn hóa đọc<!-- <i class="menu-icon fa fa-angle-down"></i> --></span></a>
-                    <!-- <ul>
-                      <li><a href="blog-list.html">Blog List</a></li>
+                  <li><a href="book-detail.html"><span class="menu-text">Văn hóa đọc<!-- <i class="menu-icon fa fa-angle-down"></i>--></span></a>
+                    <ul>
+                      <!-- <li><a href="blog-list.html">Blog List</a></li>
                       <li><a href="blog-grid-2.html">Blog Grid 2</a></li>
                       <li><a href="blog-grid-3-no-sb.html">Blog Grid 3 No Sidebar</a></li>
                       <li><a href="blog-grid-3-mansory-no-sb.html">Blog Grid 3 Mansory No Sidebar</a></li>
-                      <li><a href="blog-detail.html">Blog Detail</a></li>
-                    </ul> -->
+                      <li><a href="blog-detail.html">Blog Detail</a></li> -->
+                    </ul>
                   </li>
                   <li><a href="library.html"><span class="menu-text">Sách truyện</span></a></li>
                   <li><a href="author.html"><span class="menu-text">Tác giả</span></a></li>
@@ -138,11 +138,11 @@
                           <li><a href="#"><span class="menu-text">Example menu item<i class="menu-icon fa fa-angle-down"></i></span></a>
                             <ul class="dropdown-left">
                               <li><a href="#">Example menu item</a></li>
-                              <li><a href="#">Example menu item</a></li>
+                              <li><a href="#">Example menu item</a></li> -->
                             </ul>
                           </li>
                         </ul>
-                      </li> -->
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -152,95 +152,193 @@
             <div class="con_breadcrumb">
               <ul class="clearfix">
                 <li><a href="#">Trang chủ</a></li>
-                <li>Đăng kí</li>
+                <li>Sách truyện</li>
               </ul>
             </div>
             <!-- .con_breadcrumb-->
             <div class="con_title">
-              <div class="box_title">
-                <h3 class="st_title"><span class="lg">Đăng kí</span></h3>
+              <div class="box_letter">
+                <ul>
+                  <li><a href="#">A</a></li>
+                  <li><a href="#">B</a></li>
+                  <li><a href="#">C</a></li>
+                  <li><a href="#">D</a></li>
+                  <li><a href="#">E</a></li>
+                  <li><a href="#">F</a></li>
+                  <li><a href="#">G</a></li>
+                  <li><a href="#">H</a></li>
+                  <li><a href="#">I</a></li>
+                  <li><a href="#">J</a></li>
+                  <li><a href="#">K</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">M</a></li>
+                  <li><a href="#">N</a></li>
+                  <li><a href="#">O</a></li>
+                  <li><a href="#">P</a></li>
+                  <li><a href="#">Q</a></li>
+                  <li><a href="#">R</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#">T</a></li>
+                  <li><a href="#">U</a></li>
+                  <li><a href="#">V</a></li>
+                  <li><a href="#">W</a></li>
+                  <li><a href="#">X</a></li>
+                  <li><a href="#">Y</a></li>
+                  <li><a href="#">Z</a></li>
+                </ul>
               </div>
+              <div class="box_title">
+                <h3 class="st_title"><span class="lg">Kho sách Thư viện ePub Việt</span><span class="md">Thư viện sách định dạng epub (+prc) của người Việt</span></h3>
+              </div>
+              <div class="box_img"><img src="images/img_library.jpg" alt="img_library"/></div>
             </div>
             <!-- .con_title-->
-            <div class="con_register_form">
-              <div class="row">
-                <div class="col-md-8 col-md-push-2">
-                  <form class="form-horizontal">
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Tên đăng nhập</label>
-                      <div class="col-sm-9">
-                        <input type="text" class="form-control" placeholder="Tên đăng nhập">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Email</label>
-                      <div class="col-sm-9">
-                        <input type="email" class="form-control" placeholder="Email">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Mật khẩu</label>
-                      <div class="col-sm-9">
-                        <input type="password" class="form-control" placeholder="Mật khẩu">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Nhập lại mật khẩu</label>
-                      <div class="col-sm-9">
-                        <input type="password" class="form-control" placeholder="Nhập lại mật khẩu">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Ngày sinh</label>
-                      <div class="col-sm-9">
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <select class="form-control">
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                            <div class="space_10 visible-xs"></div>
-                          </div>
-                          <div class="col-sm-3">
-                            <select class="form-control">
-                              <option value="1">Tháng 1</option>
-                              <option value="2">Tháng 2</option>
-                              <option value="2">Tháng 3</option>
-                            </select>
-                            <div class="space_10 visible-xs"></div>
-                          </div>
-                          <div class="col-sm-4">
-                            <select class="form-control">
-                              <option value="1990">Năm 1990</option>
-                              <option value="1991">Năm 1991</option>
-                              <option value="1992">Năm 1992</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Giới tính</label>
-                      <div class="col-sm-9">
-                        <label class="radio-inline">
-                          <input type="radio" name="gender" value="1"> Nam
-                        </label>
-                        <label class="radio-inline">
-                          <input type="radio" name="gender" value="2"> Nữ
-                        </label>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-offset-3 col-sm-9">
-                        <button type="submit" class="btn btn-primary">Đăng kí</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
+            <div class="con_category">
+              <ul class="row list">
+                <li class="col-sm-3 item"><a href="#">Âm nhạc thế giới<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Danh nhân<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Hạt giống tâm hồn<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Kinh doanh<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Ngoại ngữ - ELT<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Phong thủy<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Quản lý<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Tham khảo<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Thiết kế - Mỹ thuật<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Thiếu nhi<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Tin học - Điện tử<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Truyện Tranh<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Tư duy - Sống đẹp<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Tự Truyện<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Văn học<span class="num">(10)</span></a></li>
+                <li class="col-sm-3 item"><a href="#">Y học gia đình<span class="num">(10)</span></a></li>
+              </ul>
             </div>
-            <!-- .con_register_form-->
+            <!-- .con_category-->
+            <div class="con_products">
+              <ul class="row list">
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-3 col-md-3 item">
+                  <a href="book-detail.html">
+                    <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+                    <h4 class="st_title">No Country for Old Men</h4>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- .con_products-->
           </div>
         </div>
       </div>

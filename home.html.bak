@@ -294,7 +294,7 @@
                       </a>
                     </div>
                     <div>
-                      <a class="over" href="book_detail.html">
+                      <a class="over" href="book-detail.html">
                         <div class="thumb"><img class="img_thumb" src="images/img_demo_01.jpg" alt="demo"/></div>
                         <div class="caption">Đại tướng Võ Nguyên Giáp</div>
                       </a>

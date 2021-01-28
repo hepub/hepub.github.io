@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Thư viện Sách</title>
+    <title>Thông tin sách</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -31,7 +31,7 @@
     
     -->
   </head>
-  <body class="register_page">
+  <body class="book_detail_page">
     <div class="site">
       <div class="header_top">
         <div class="container">
@@ -55,7 +55,7 @@
             <header class="header">
               <nav class="main-nav">
                 <ul class="nav sf-menu">
-                  <li class="mega-columns"><a href="index.html"><span class="menu-text">Trang chủ</span></a>
+                  <li class="mega-columns"><a href="index.html"><span class="menu-text">Trang chủ</i></span></a>
                     <!-- <ul class="row">
                       <li class="col-xs-3 mega-col"><a class="mega-title" href="index.html"><span class="menu-text">Homepage Demos</span></a>
                         <ul class="mega-content">
@@ -83,7 +83,7 @@
                       </li>
                     </ul> -->
                   </li>
-                  <li><a href="../forum"><span class="menu-text">Diễn đàn</span></a>
+                  <li><a href="../forum"><span class="menu-text">Diễn đàn</i></span></a>
                     <!-- <ul>
                       <li><a href="product-list.html">Product List</a></li>
                       <li><a href="product-grid-2.html">Product Grid 2</a></li>
@@ -106,14 +106,14 @@
                       <li><a href="cart-empty.html">Cart Empty</a></li> -->
                     </ul>
                   </li>
-                  <li><a href="book-detail.html"><span class="menu-text">Văn hóa đọc<!-- <i class="menu-icon fa fa-angle-down"></i> --></span></a>
-                    <!-- <ul>
-                      <li><a href="blog-list.html">Blog List</a></li>
+                  <li><a href="book-detail.html"><span class="menu-text">Văn hóa đọc<!-- <i class="menu-icon fa fa-angle-down"></i>--></span></a>
+                    <ul>
+                      <!-- <li><a href="blog-list.html">Blog List</a></li>
                       <li><a href="blog-grid-2.html">Blog Grid 2</a></li>
                       <li><a href="blog-grid-3-no-sb.html">Blog Grid 3 No Sidebar</a></li>
                       <li><a href="blog-grid-3-mansory-no-sb.html">Blog Grid 3 Mansory No Sidebar</a></li>
-                      <li><a href="blog-detail.html">Blog Detail</a></li>
-                    </ul> -->
+                      <li><a href="blog-detail.html">Blog Detail</a></li> -->
+                    </ul>
                   </li>
                   <li><a href="library.html"><span class="menu-text">Sách truyện</span></a></li>
                   <li><a href="author.html"><span class="menu-text">Tác giả</span></a></li>
@@ -138,11 +138,11 @@
                           <li><a href="#"><span class="menu-text">Example menu item<i class="menu-icon fa fa-angle-down"></i></span></a>
                             <ul class="dropdown-left">
                               <li><a href="#">Example menu item</a></li>
-                              <li><a href="#">Example menu item</a></li>
+                              <li><a href="#">Example menu item</a></li> -->
                             </ul>
                           </li>
                         </ul>
-                      </li> -->
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -152,95 +152,152 @@
             <div class="con_breadcrumb">
               <ul class="clearfix">
                 <li><a href="#">Trang chủ</a></li>
-                <li>Đăng kí</li>
+                <li><a href="#">Lịch sử - Địa lý</a></li>
+                <li>No Country for Old Men</li>
               </ul>
             </div>
             <!-- .con_breadcrumb-->
-            <div class="con_title">
-              <div class="box_title">
-                <h3 class="st_title"><span class="lg">Đăng kí</span></h3>
+            <div class="con_book_detail">
+              <div class="box_avatar hidden-xs">
+                <div class="thumb"><img src="images/img_demo_01.jpg" alt="demo"/></div>
               </div>
-            </div>
-            <!-- .con_title-->
-            <div class="con_register_form">
-              <div class="row">
-                <div class="col-md-8 col-md-push-2">
-                  <form class="form-horizontal">
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Tên đăng nhập</label>
-                      <div class="col-sm-9">
-                        <input type="text" class="form-control" placeholder="Tên đăng nhập">
+              <div class="box_title">
+                <h3 class="st_title">No Country for Old Men</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ex non atque quas, corporis magni cum enim, a, maiores dicta, repellat facere laboriosam rerum iusto quaerat tenetur cupiditate nihil sequi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ex non atque quas, corporis magni cum enim, a, maiores dicta, repellat facere laboriosam rerum iusto quaerat tenetur cupiditate nihil sequi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ex non atque quas, corporis magni cum enim, a, maiores dicta, repellat facere laboriosam rerum iusto quaerat tenetur cupiditate nihil sequi.</p>
+              </div>
+              <div class="box_avatar_xs hidden-sm hidden-md hidden-lg"><img src="images/img_demo_01.jpg" alt="demo"/></div>
+              <div class="box_profile">
+                <table>
+                  <tr>
+                    <th>Nguyên tác</th>
+                    <td>: No Country for Old Men</td>
+                  </tr>
+                  <tr>
+                    <th>Tác giả</th>
+                    <td>: 4 Oscars</td>
+                  </tr>
+                  <tr>
+                    <th>Thể loại</th>
+                    <td>: <a href="#">Lịch sử - Địa lý</a>, <a href="#">Chuyên ngành</a></td>
+                  </tr>
+                  <tr>
+                    <th>Nguồn</th>
+                    <td>: <a href="#">IMDB</a>, <a href="#">Wikipedia</a></td>
+                  </tr>
+                  <tr>
+                    <th>Lượt xem</th>
+                    <td>: 23</td>
+                  </tr>
+                  <tr>
+                    <th>Tags</th>
+                    <td>: <a href="#">Won Oscar</a></td>
+                  </tr>
+					<tr>
+                    <th>Tải về</th>
+                    <td>: <a href="#">epub</a> - <a href="#">prc</a> - <a href="#">mobi</a> - <a href="#">azw</a> - <a href="#">pdf</a></td>
+                  </tr>                  
+                  <tr>
+                    <th>Chia sẻ</th>
+                    <td>: <a href="#">Twitter</a> - <a href="#">Facebook</a> - <a href="#">Google+</a></td>
+                    <td>
+                      <div id="fb-root"></div>
+                      <script>
+                        (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9";
+                        fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                      </script>
+                      <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="box_stars">
+                <div class="row_tbl">
+                  <div class="col_result">
+                    <div class="col_inner">
+                      <p class="result">4.5 trên 5</p>
+                      <div class="rating">
+                        <ul class="gray">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <ul class="active">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half"></i></li>
+                        </ul>
                       </div>
+                      <div class="count">105 lượt đánh giá</div>
                     </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Email</label>
-                      <div class="col-sm-9">
-                        <input type="email" class="form-control" placeholder="Email">
-                      </div>
+                  </div>
+                  <div class="col_detail">
+                    <div class="rating_stars">
+                      <ul>
+                        <li>
+                          <div class="type">5 sao</div>
+                          <div class="line"><em style="width: 99%"></em></div>
+                          <div class="count">99</div>
+                        </li>
+                        <li>
+                          <div class="type">4 sao</div>
+                          <div class="line"><em style="width: 5%"></em></div>
+                          <div class="count">5</div>
+                        </li>
+                        <li>
+                          <div class="type">3 sao</div>
+                          <div class="line"><em style="width: 1%"></em></div>
+                          <div class="count">1</div>
+                        </li>
+                        <li>
+                          <div class="type">2 sao</div>
+                          <div class="line"><em style="width: 0%"></em></div>
+                          <div class="count">0</div>
+                        </li>
+                        <li>
+                          <div class="type">1 sao</div>
+                          <div class="line"><em style="width: 0%"></em></div>
+                          <div class="count">0</div>
+                        </li>
+                      </ul>
                     </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Mật khẩu</label>
-                      <div class="col-sm-9">
-                        <input type="password" class="form-control" placeholder="Mật khẩu">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Nhập lại mật khẩu</label>
-                      <div class="col-sm-9">
-                        <input type="password" class="form-control" placeholder="Nhập lại mật khẩu">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Ngày sinh</label>
-                      <div class="col-sm-9">
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <select class="form-control">
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                            <div class="space_10 visible-xs"></div>
-                          </div>
-                          <div class="col-sm-3">
-                            <select class="form-control">
-                              <option value="1">Tháng 1</option>
-                              <option value="2">Tháng 2</option>
-                              <option value="2">Tháng 3</option>
-                            </select>
-                            <div class="space_10 visible-xs"></div>
-                          </div>
-                          <div class="col-sm-4">
-                            <select class="form-control">
-                              <option value="1990">Năm 1990</option>
-                              <option value="1991">Năm 1991</option>
-                              <option value="1992">Năm 1992</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Giới tính</label>
-                      <div class="col-sm-9">
-                        <label class="radio-inline">
-                          <input type="radio" name="gender" value="1"> Nam
-                        </label>
-                        <label class="radio-inline">
-                          <input type="radio" name="gender" value="2"> Nữ
-                        </label>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-offset-3 col-sm-9">
-                        <button type="submit" class="btn btn-primary">Đăng kí</button>
-                      </div>
-                    </div>
-                  </form>
+                  </div>
+                  <div class="col_btn">
+                    <a href="#" class="btn btn-default btn_purple">Đánh giá của bạn</a>
+                  </div>
                 </div>
               </div>
+
+              <div class="box_story">
+                <h4>Cốt truyện</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aspernatur, mollitia suscipit perspiciatis minima reprehenderit quasi consectetur aperiam et corrupti, voluptatum modi. Tempora consectetur saepe error perspiciatis ipsa dolorem aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aspernatur, mollitia suscipit perspiciatis minima reprehenderit quasi consectetur aperiam et corrupti, voluptatum modi. Tempora consectetur saepe error perspiciatis ipsa dolorem aliquam.</p><br/>
+                <h4>Nội dung</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aspernatur, mollitia suscipit perspiciatis minima reprehenderit quasi consectetur aperiam et corrupti, voluptatum modi. Tempora consectetur saepe error perspiciatis ipsa dolorem aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aspernatur, mollitia suscipit perspiciatis minima reprehenderit quasi consectetur aperiam et corrupti, voluptatum modi. Tempora consectetur saepe error perspiciatis ipsa dolorem aliquam.</p><br/>
+                <h4>Thông tin khác</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dicta voluptates delectus, eveniet odit aperiam iusto illum consequuntur enim, eligendi molestias necessitatibus fugit ullam in nulla ea impedit exercitationem aliquid! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dicta voluptates delectus, eveniet odit aperiam iusto illum consequuntur enim, eligendi molestias necessitatibus fugit ullam in nulla ea impedit exercitationem aliquid!</p>
+                <div class="box_nav_post">
+                  <div class="row">
+                    <div class="col-xs-6"><a href="#">&lt; Trang trước</a></div>
+                    <div class="col-xs-6 text-right"><a href="#">Trang sau &gt;</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="box_comment">
+                <h4>Bình luận (0)</h4>
+                <p class="txt_leave_cmt">Để lại bình luận</p>
+              </div>
             </div>
-            <!-- .con_register_form-->
+            <!-- .con_book_detail-->
           </div>
         </div>
       </div>

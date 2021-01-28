@@ -294,7 +294,7 @@
                       </a>
                     </div>
                     <div>
-                      <a class="over" href="book_detail.html">
+                      <a class="over" href="book-detail.html">
                         <div class="thumb"><img class="img_thumb" src="images/img_demo_01.jpg" alt="demo"/></div>
                         <div class="caption">Đại tướng Võ Nguyên Giáp</div>
                       </a>
@@ -646,7 +646,7 @@
                     <div class="box_content">
 					Một người không đọc sách chẳng hơn gì kẻ không biết đọc.<br>
 					A person who won’t read has no advantage over one who can’t read.<br>
-					<b><i>Mark Twain</i></b><br>
+					Mark Twain<br>
 					</div>
                   </div>
                 </div>
